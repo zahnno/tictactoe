@@ -1,0 +1,47 @@
+*
+{	
+	padding: 0px;
+	margin: 0px;
+}
+
+body 
+{
+	text-align: center;
+	background-color: white;
+}
+
+canvas
+{
+
+	background: lightgreen;
+	-webkit-transition: opacity 1s;
+	-webkit-transition: -webkit-transform 1s;
+	box-shadow: 5px 5px 10px green;
+
+}
+
+canvas:hover
+{
+	width: 101px;
+	height: 99px;
+}
+
+#canvasDiv
+{
+ 	margin: 150px auto 40px;
+}
+
+#reload
+{
+	text-decoration: none;
+	color: lightblue;
+	font: 20px arial;
+
+
+
+}
+
+#reload:hover
+{
+	font-size: 22px;
+}
